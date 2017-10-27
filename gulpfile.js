@@ -92,7 +92,7 @@ gulp.task('htmlBuild', function(){
   browserSync.reload();
 });
 
-gulp.task('cssBuild', ['sassBuild'], function(){
+gulp.task('cssBuild', function(){
   browserSync.reload();
 });
 

@@ -1,0 +1,20 @@
+{
+  "name": "angular2-app",
+  "description": "`$ npm install bower -g`",
+  "main": "gulpfile.js",
+  "authors": [
+    "Mitch Long <meechllada@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

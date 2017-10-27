@@ -1,14 +1,14 @@
+
+
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
- template: `
-
+  template: `
+  <h1>My First Angular 2 App</h1>
   `
 })
 
+export class AppComponent {
 
-export class Task {
-  public done: boolean = false;
-  constructor(public description: string, public priority: number) {   }
 }
