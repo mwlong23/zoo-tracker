@@ -19,8 +19,8 @@ import { Animal } from './animal.model';
         <input #newLocation>
       </div>
       <div>
-        <label>Number of Caretakers: </label>
-        <input #newCaretakers>
+        <label>Number of Caretakers </label>
+        <input #newCaretaker>
       </div>
       <div>
         <label>Age: </label>
@@ -42,12 +42,12 @@ import { Animal } from './animal.model';
       <div>
       <label>Gender:</label>
       <select #newSex>
-        <option [value]="Male"> Male</option>
-        <option [value]="Female"> Female</option>
-        <option [value]="Fluid"> Fluid</option>
+        <option value="Male"> Male</option>
+        <option value="Female"> Female</option>
+        <option value="Fluid"> Fluid</option>
       </select>
       <br>
-        <button (click)="submitForm(newName.value, newSpecies.value, newLocation.value, newCaretaker.value, newAge.value, newDiet.value, newLikes.value, newDislikes.value, newSex.value)">Done</button>
+        <button (click)="submitForm(newName.value, newSpecies.value, newLocation.value, newCaretaker.value, newAge.value, newDiet.value, newLikes.value, newDislikes.value, newSex.value); newName.value=''; newSpecies.value=''; newLocation.value=''; newCaretaker.value=''; newAge.value=''; newDiet.value=''; newLikes.value=''; newDislikes.value=''; newSex.value='';">Done</button>
       </div>
 
   `

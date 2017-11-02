@@ -40,9 +40,9 @@ import { Animal } from './animal.model';
       <input [(ngModel)]="childSelectedAnimal.dislikes">
     </div>
 
-      <input type="radio" name="sex"[(ngModel)]="childSelectedAnimal.sex" [value]="Male"> Male<br>
-      <input type="radio" name="sex" [(ngModel)]="childSelectedAnimal.sex" [value]="Female"> Female<br>
-      <input type="radio" name="sex" [(ngModel)]="childSelectedAnimal.sex" [value]="Fluid"> Fluid<br>
+      <input type="radio" name="sex"[(ngModel)]="childSelectedAnimal.sex" value="Male"> Male<br>
+      <input type="radio" name="sex" [(ngModel)]="childSelectedAnimal.sex" value="Female"> Female<br>
+      <input type="radio" name="sex" [(ngModel)]="childSelectedAnimal.sex" value="Fluid"> Fluid<br>
 
     <button (click)="doneButtonClicked()" class="btn-success btn">Done</button>
   </div>

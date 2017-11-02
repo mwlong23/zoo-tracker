@@ -45,5 +45,13 @@
   },
   "description": "`$ npm install bower -g`",
   "main": "gulpfile.js",
-  "author": ""
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwlong23/zoo-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwlong23/zoo-tracker/issues"
+  },
+  "homepage": "https://github.com/mwlong23/zoo-tracker#readme"
 }
