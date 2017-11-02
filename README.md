@@ -23,9 +23,16 @@ Each animal is tracked based on their name, species, zoo keeper, enclosure build
   * _`$ gulp serve`_
 * _The application will open in a browser window once `gulp serve` is run._
 
+## Future Additions
+_There is lots of opportunity to build this application out further. Possible upcoming features include:_
+  * _Enhanced filtering features to separate animals by diet, sex, number of caretakers, ect._
+  * _Additional master component that can calculate the average age of each species_
+  * _Expand the application to differentiate between animals' species. Group the animals into those categories. Then include a component to display the total needed caretakers for whichever species the user selects._
+  * _Add a property that records when each animal was admitted._
+  * _Display the total number of caretakers needed each day to care for all the animals._
+  * _Style app using 'Angular Material' or 'Clarity' CSS frameworks.
 
-
-
+  
 ## Known Bugs
 
 _There are no known bugs at this time._
@@ -46,4 +53,4 @@ _This application was developed with the following frameworks:_
 
 *This application is covered by the MIT Open Software License*
 
-Copyright (c) 2017 **_{Mitchell Long}_**
+Copyright (c) 2017 **_Mitchell Long_**
