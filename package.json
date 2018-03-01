@@ -28,8 +28,8 @@
     "systemjs": "0.19.27"
   },
   "devDependencies": {
-    "bower-files": "^3.11.3",
-    "browser-sync": "^2.11.1",
+    "bower-files": "^3.14.1",
+    "browser-sync": "^2.23.6",
     "concurrently": "3.0.0",
     "del": "2.2.0",
     "gulp": "3.9.1",
